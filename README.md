@@ -47,9 +47,9 @@ Set the "version" parameter in the release/app/package.json's "version".
 
 ## Release 
 
-Github release drafts are created whenever main is updated and there is no existing version found in release/app/package.json's "version".
+GitHub release drafts are created whenever main is updated and there is no existing version found in release/app/package.json's "version".
 
-See the .env.example file for more information about what is needed for release (everything not written _DEV, or CI). You'll need to add these as secrets on Github repo. Note that despite the fact that Electron-builder's CSC_LINK and WIN_CSC_LINK ask for links, you can also convert your code signing certificates into base64 and use the strings. 
+See the .env.example file for more information about what is needed for release (everything not written _DEV, or CI). You'll need to add these as secrets on GitHub repo. Note that despite the fact that Electron-builder's CSC_LINK and WIN_CSC_LINK ask for links, you can also convert your code signing certificates into base64 and use the strings. 
 
 
 ## A bit about versioning
